@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const FooterDiv = styled.footer `
-  background: #D3E4CD;
+  background: #7B7B7B;
   margin-top: 24px;
   padding: 16px 40px;
   text-align: center;
@@ -41,8 +41,9 @@ export default function Footer() {
         img src = "/img/github.png"
         alt = "logo-github" / >
         <
-        /a> <a href="https:/ / www.linkedin.com / in /weslley-washington/
-        "><
+        /a>  <
+        a href = "https://www.linkedin.com/in/weslley-washington/" >
+        <
         img src = "/img/linkedin.png"
         alt = "logo-github" / >
         <

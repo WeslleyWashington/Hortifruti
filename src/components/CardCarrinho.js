@@ -92,8 +92,9 @@ function CardCarrinho({ fruta, carrinho, onCarrinhoChange, total, onTotalChange 
         <
         h4 > { fruta.nome } - { qnt } { fruta.quantidade } < /h4> <
         p > R$ {
-            (fruta.preco * qnt).toFixed(2) } < /p> <
-        /div>
+            (fruta.preco * qnt).toFixed(2)
+        } < /p> < /
+        div >
 
         <
         div className = "botoes-card-carrinho" >
@@ -122,8 +123,8 @@ function CardCarrinho({ fruta, carrinho, onCarrinhoChange, total, onTotalChange 
                 onTotalChange(total - (fruta.preco * qnt))
                 onCarrinhoChange(ConfereArray(carrinho, fruta))
             }
-        } > remover < /button> <
-        /div>
+        } > remover < /button> < /
+        div >
 
         <
         /CardCarrinhodiv>

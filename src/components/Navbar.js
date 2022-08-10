@@ -59,18 +59,19 @@ export default function Navbar({ carrinho, onCarrinhoChange, isNoCarrinho, setIs
         alt = "main-logo"
         className = "logo" / >
         <
-        /a> <
-        /span> <
+        /a> < /
+        span > <
         nav >
         <
         ul className = "nav-links" >
         <
         li > < button id = "carrinho"
         onClick = { handleIsNoCarrinhoChange } > 🛒 < span > {
-            (carrinho.length > 0) ? new Set(carrinho).size : "" } <
-        /span></button > < /li> <
-        /ul> <
-        /nav> <
-        /NavBar>
+            (carrinho.length > 0) ? new Set(carrinho).size : ""
+        } <
+        /span></button > < /li> < /
+        ul > <
+        /nav> < /
+        NavBar >
     );
 }
